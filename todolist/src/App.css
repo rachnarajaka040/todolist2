@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+   margin:0;
+   padding: 0;
+}
 .flex{
   display: flex;
-  
+  flex-wrap: wrap;
 }
 .left img{
   width:80px;
@@ -8,8 +15,17 @@
 }
 nav{
   margin-left: 0px;
-
+  font-size: 12px;
+  padding-top: 14px;
 }
+
+.input{
+   border: 0.5px solid grey;
+  border-radius: 5px;
+  background: #f7f8fd;
+}
+
+
 
 nav ul li{
   list-style: none;
@@ -51,7 +67,11 @@ nav ul li{
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.container{
+ 
+  padding: 0 10vw;
+ 
+}
 .App-link {
   color: #61dafb;
 }
@@ -59,8 +79,17 @@ nav ul li{
   position: sticky;
    background-color: white;
   top:0;
-  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  height: 66px;
+  
 }
+.imgpic{
+  width:80vw;
+}
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
