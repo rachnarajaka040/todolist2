@@ -10,7 +10,7 @@ function App() {
          
           <div className="left flex items-center">
            <img src="https://images.indianexpress.com/2021/01/myntra.png"/>
-           <ul class="flex items-center justify-center uppercase semibold">
+           <ul className="flex items-center justify-center uppercase semibold">
              <li>Men</li>
              <li>Women</li>
              <li>Kids</li>
